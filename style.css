@@ -1,0 +1,72 @@
+.header {
+  background-color: #26d0c9;
+ color: #fff;
+ height: 90px;
+}
+
+.header-logo {
+  font-size: 36px;
+  padding: 20px 40px;
+  float: left;
+}
+
+.header-list li {
+  float: left;
+  padding: 33px 20px;
+}
+
+li {
+  list-style: none;
+}
+
+.container {
+  width: 80%;
+  min-width: 360px;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-header h1 {
+  font-size: 24px;
+}
+
+.table-head {
+  display: flex;
+  background-color: #b7cadc;
+  border-radius: 2px 2px 0 0;
+  height: 44px;
+  font-size: 16px;
+  line-height: 46px;
+  color: #ffffff;
+}
+
+.id-column {
+  width: 72px;
+  text-align: center;
+}
+
+.table-body li {
+  height: 72px;
+  border: 1px solid #f0f4f9;
+  border-top: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-body .id-column {
+  font-size: 16px;
+  color: #bac6d3;
+}
+
+.table-body .name-column {
+  font-size: 14px;
+  font-weight: 500;
+  color: #8491a5;
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My novel</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/send_url.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="header-logo">読書管理サイト</a>
+    </header>
+    <div class="container">
+      <div class="item-form-wrapper">
+        <form action="/create" method="post">
+          <p class="form-label">著者名</p>
+          <input name="userWriter" type="text">
+          <p class="form-label">作品名</p>
+          <input name="userName" type="text">
+          <input type="submit" value="登録">
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

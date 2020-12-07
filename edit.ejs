@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My novel</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/send_url.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="/" class="header-logo">読書管理サイト</a>
+    </header>
+    <div class="container">
+      <div class="container-header">
+        <h1>リスト編集</h1>
+        <a href="/" class="cancel-button">キャンセル</a>
+      </div>
+      <div class="item-form-wrapper">
+        <form action="/update/<%= user.id %>" method="post">
+          <p class="form-label">著者名</p>
+          <input name="userWriter" value="<%= user.writer %>" type="text">
+          <p class="form-label">作品名</p>
+          <input name="userName" value="<%= user.name %>" type="text">
+          <input type="submit" value="更新する">
+        </form>
+      </div>
+      <a href="/" class="cancel-button"></span>もどる</a>
+    </div>
+  </body>
+</html>
